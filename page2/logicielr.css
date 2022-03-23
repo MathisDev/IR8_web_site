@@ -1,0 +1,17 @@
+@media (max-width:1400px){
+    .img1 {
+        position: relative;
+        width: 700px;
+        height: 300px;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    .img1 {
+        position: relative;
+        width: 700px;
+        height: 300px;
+    }
+}
+

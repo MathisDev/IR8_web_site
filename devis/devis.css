@@ -1,0 +1,140 @@
+body {
+    background-color: grey;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bando {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    right:0;
+    height: 100px;
+    background-color:black;
+    z-index: 1;
+    align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.titreBando {
+    position: relative;
+    color: white;
+    left: 40%;
+    font-size: 33px;
+    bottom: 70px;
+}
+.titreBando1 {
+    margin-left:40px ;
+    position: relative;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    top: 8px;
+}
+.div-titreBando {
+    background-color: #f0ee97;
+    height: 50px;
+    width: 180px;
+    margin-left:50px ;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.class-content {
+    margin-left: 40px;
+    margin-top:110px ;
+}
+.titre-input-content1 {
+    margin: 20px;
+    font-size: 30px;
+}
+.ligne1-1 {
+    border-radius: 8px;
+    width: 500px;
+    height: 10px;
+    background-color: #f0ee97;
+    margin-left: 20px;
+}
+.ligne1-2 {
+    border-radius: 8px;
+    width: 500px;
+    height: 10px;
+    background-color: black;
+    margin-left: 20px;
+    margin-top:5px ;
+}
+.ligne2-1 {
+    border-radius: 8px;
+    width: 500px;
+    height: 10px;
+    background-color: #f0ee97;
+    margin-left: 20px;
+}
+.ligne2-2 {
+    border-radius: 8px;
+    width: 500px;
+    height: 10px;
+    background-color: black;
+    margin-left: 20px;
+    margin-top:5px ;
+}
+
+.titre-input-content2 {
+    margin: 20px;
+    font-size: 30px;
+}
+
+/* Content Input  */
+.content-titrIe-input {
+    display: flex;
+}
+.ttireI {
+    font-size: 20px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.input1 {
+    margin: 0px;
+    width: 200px;
+    border-radius: 8px;
+    height: 30px;
+}
+.input2 {
+    width: 500px;
+    border-radius: 8px;
+}
+.btn-input {
+    background-color: black;
+    color: #f0ee97;
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    margin: 30px;
+    border: none;
+    border-radius: 8px;
+}
+.input-g {
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 8px;
+    height: 200px;
+    width: 500px;
+    color: black;
+}
+.p-text-input1 {
+    color: grey;
+    font-size: 12px;
+}
+.p-text-input2 {
+    color: grey;
+    font-size: 12px;
+}
+.p-text-input3 {
+    color: grey;
+    font-size: 12px;
+}
+footer {
+    background-color: grey;
+    height: 300px;
+    width: 100%;
+}

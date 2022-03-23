@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ir8 - Devis</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="devis/devis.css">
+        <link rel="stylesheet" href="devis/responsive.css">
+    </head>
+    <body>
+        <nav class="bando">
+            <div class="div-titreBando"><a href="index.html" class="titreBando1">Home</a></div>
+            <h2 class="titreBando"> Devis </h2>
+        </nav>
+    <div class="class-content">
+        <div class="-class-titre-input-content1">
+            <h2 class="titre-input-content1">Information vous Concernant</h2>
+            <div class="ligne1-1"></div>
+            <div class="ligne1-2"></div>
+        </div>
+    <form role="form" action="/contact" method="post">
+
+        <div class="class-vertical">
+            <div class="content-titreI-input">
+                <p for="subject" class="ttireI" id="text-input1" >Nom Prenom *</p>
+                <p class="p-text-input1" id="p-text1" >Veuillez remplire ces espace </p>
+                <input type="text" id='input' name="subject" value="" required placeholder="Nom" class="input1"></br>
+            </div>
+
+            <div class="content-titreI-input">
+                <p class="ttireI" for="email" id="text-input2" >Email</p>
+                <p class="p-text-input2" id="p-text2" >Veuillez remplire ces espace </p>
+                <input type="email" name="email" required placeholder="Email" value=""  id='input1' class="input1"></br>
+            </div>
+
+            <div class="content-titreI-input">
+                <p class="ttireI" for="message" id="text-input3" >Que voullez-vous</p>
+                <p class="p-text-input3" id="p-text3" >Veuillez remplire ces espace </p>
+                <textarea name="message" required placeholder="Votre Message" type="text" rows="5" value=""  id='input2' class="input2"></textarea></br>
+            </div>
+
+        </div>
+        <div class="class-vertical">b
+         <div class="content-titreI-input">
+            <button id="btn-input" onclick='main()' class="btn-input">Envoyer</button>
+        </div>
+    </form>
+    </div>
+    <footer></footer>
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+    <script src="devis/devis.js" type="text/javascript"></script>
+</body>
+</html>

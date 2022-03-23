@@ -1,0 +1,297 @@
+
+body{
+    background-color: #f097aa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nav Bart Bando */
+
+.bando {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    right:0;
+    height: 100px;
+    background-color:black;
+    z-index: 1;
+    border-bottom: 3px solid black;
+}
+.bandol {
+    position: relative;
+    display:flex;
+    left: 10%;
+    top: 10%;
+    list-style-type: none;
+
+}
+
+.bandoli1 {
+    margin-left: 80px;
+}
+.bandoli2 {
+    margin-left: 80px;
+}
+.bandoli3 {
+    margin-left: 80px;
+}
+.bandoli4 {
+    margin-left: 80px;
+}
+.bandoli4 {
+    margin-left: 80px;
+}
+.class-btn-devis {
+    background-color: #f0ee97;
+    border-radius: 45px;
+    width: 100px;
+    height: 50px;
+    align-items:center;
+    left: 10px;
+    top: 10px;
+}
+.btn-devis {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+    left: 20px;
+    top: 13px;
+}
+.bando-a1 {
+    width: 130px;
+    height:40px;
+    border-radius: 40px;
+    border: 3px solid black;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left:30px;
+    top: 5px;
+}
+
+.bando-a2 {
+    width: 130px;
+    height:40px;
+    border-radius: 40px;
+    border: 3px solid #f097aa;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.bando-a3 {
+    width: 130px;
+    height:40px;
+    border-radius: 40px;
+    border: 3px solid black;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left:20px;
+    top: 5px;
+}
+
+.bando-a4 {
+    width: 130px;
+    height:40px;
+    border-radius: 40px;
+    border: 3px solid black;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left:20px;
+    top: 5px;
+}
+
+/* Etiquette 1 */
+
+.conteneur-block2{
+    position: relative;
+    right: 200px;
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+.card-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    grid-gap: 30px;
+    margin: 80px;
+}
+.card-wrapper{
+    position: relative;
+    min-height: 350px;
+    perspective: 2000px;
+    perspective-origin: top;
+    right: 800px;
+    width: 200px;
+    height: 10px;
+    left: 200px;
+}
+.card-wrapper:hover .card {
+    transform: rotateY(180deg);
+}
+.card{
+    position: relative;
+    transform-style:preserve-3d ;
+    transition: transform 0.8s cubic-bezier(0.86,0,0.07,1);
+    color: white;
+    font-weight: bold;
+    height: 170px;
+    width: 170px;
+    margin: 200px;
+}
+.card-font,
+.card-back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.card-font{
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-wrapper:nth-child(even) .card-font {
+    background-color: red;
+}
+
+.card-font p {
+    font-size: 25px;
+    line-height: 35px;
+}
+.card-back {
+    background: orange;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.card-wrapper:nth-child(even) .card-back {
+    background-color: red;
+}
+.link-site {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: normal;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333;
+    transition: background-color 0.3s ease-out,color 0.3s ease-out;
+}
+.card-wrapper:nth-child(odd) .card-back {
+    background-color: red;
+}
+.link-site {
+    align-items: center;
+}
+.img-sto {
+    position: relative;
+    top: 20%;
+    margin: 0;
+    height:100px
+}
+
+.img-sto2 {
+    position: relative;
+    top: 10%;
+    margin: 0;
+    height:150px;
+}
+
+/* Etiquette 2*/
+
+.conteneur-block2-2{
+    width: 90%;
+    max-width: 1400px;
+    margin-left: 100px;
+}
+.card-content-2{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    grid-gap: 30px;
+    margin: 80px 0;
+}
+.card-wrapper-2{
+    position: relative;
+    min-height: 350px;
+    perspective: 2000px;
+    perspective-origin: top;
+    right: 0px;
+    width: 200px;
+    height: 10px;
+    bottom: 260px;
+}
+.card-wrapper-2:hover .card-2 {
+    transform: rotateY(180deg);
+}
+.card-2{
+    position: relative;
+    transform-style:preserve-3d ;
+    transition: transform 0.8s cubic-bezier(0.86,0,0.07,1);
+    color: white;
+    font-weight: bold;
+    height: 170px;
+    width: 170px;
+}
+.card-font-2,
+.card-back-2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.card-font-2{
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-wrapper-2:nth-child(even) .card-font {
+    background-color: red;
+}
+
+.card-font-2 p {
+    font-size: 25px;
+    line-height: 35px;
+}
+.card-back-2 {
+    background: red;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.card-wrapper-2:nth-child(even) .card-back {
+    background-color: red;
+}
+
+.card-wrapper-2:nth-child(odd) .card-back {
+    background-color: red;
+}

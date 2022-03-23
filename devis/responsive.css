@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+
+    .bando {
+        height: 150px;
+    }
+    .titreBando {
+        font-size: 40px;
+        bottom: 80px;
+    }
+    /* BTN - HOME */
+    .class-content {
+        margin-top:310px ;
+    }
+    .titreBando {
+        margin-left:30px ;
+        font-size: 37px;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+    .div-titreBando {
+        background-color: #f0ee97;
+        width: 180px;
+        margin-left:50px ;
+        margin-top: 50px;
+        border-radius: 8px;
+    }
+    body p {
+        font-size:25px;
+    }
+    .ttireI {
+        font-size:35px ;
+    }   
+
+
+}
